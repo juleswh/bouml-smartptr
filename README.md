@@ -17,14 +17,13 @@ You also need to set the path to the plugout. In Tools > Tools Settings > Class,
 ### Use it
 Now when you create a relation between classes, you can select stereotypes that will create either:
 
-<pre>
+```c++
 std::shared_ptr<T> x;
 std::weak_ptr<T> x;
 std::unique_ptr<T> x;
 std::vector<std::shared_ptr<T> > x;
 std::vector<std::weak_ptr<T> > x;
-</pre>
-
+```
 Hope you enjoy!
 
 [1]: https://www.bouml.fr/
