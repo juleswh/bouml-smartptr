@@ -1,0 +1,227 @@
+format 221
+"smart_ptr" // smart_ptr
+  revision 3
+  modified_by 25 "Jules Waldhart"
+  // class settings
+  
+  classdiagramsettings member_max_width 0 end
+  
+  classcompositediagramsettings end
+  
+  usecasediagramsettings end
+  
+  sequencediagramsettings end
+  
+  collaborationdiagramsettings end
+  
+  objectdiagramsettings end
+  
+  objectcompositediagramsettings end
+  
+  componentdiagramsettings
+   end
+  
+  deploymentdiagramsettings
+   end
+  
+  statediagramsettings
+   end
+  
+  activitydiagramsettings
+   end
+  
+  stereotype "profile"
+  ncouples 2
+  key "metamodelReference" value "http://schema.omg.org/spec/UML/2.1/uml.xml"
+  key "metaclassreference" value ""
+  classview 197529 "smart_ptr"
+    
+    classdiagramsettings member_max_width 0 end
+    
+    classcompositediagramsettings end
+    
+    collaborationdiagramsettings end
+    
+    objectdiagramsettings end
+    
+    objectcompositediagramsettings end
+    
+    sequencediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    
+    activitydiagramsettings
+     end
+    class 917401 "shared_ptr"
+      visibility package stereotype "stereotype"
+      cpp_decl "${comment}${template}class ${name}${inherit} {
+${members}};
+${inlines}
+"
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      ncouples 6
+      key "stereotypeSet" value "C++ smart_ptr"
+      key "stereotypeCheck" value ""
+      key "stereotypeSetParameters" value "shared_ptr"
+      key "stereotypeCheckParameters" value ""
+      key "stereotypeApplyOn" value "Relation"
+      key "stereotypeIconPath" value ""
+      classrelation 545049 // <unidirectional association>
+	relation 544665 --->
+	  a role_name "" protected
+	    cpp default "    ${comment}${static}${thread_local}${mutable}${volatile}${const}${type} * ${name}${value};
+"
+	    classrelation_ref 545049 // <unidirectional association>
+	  b parent class_ref 917529 // smart_ptr
+      end
+    end
+
+    classdiagram 186777 "shared_ptr"
+      classdiagramsettings member_max_width 0 end
+      size A4
+    end
+
+    class 917529 "smart_ptr"
+      visibility package stereotype "metaclass"
+      cpp_decl "${comment}${template}class ${name}${inherit} {
+${members}};
+${inlines}
+"
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 924185 "unique_ptr"
+      visibility package stereotype "stereotype"
+      cpp_decl "${comment}${template}class ${name}${inherit} {
+${members}};
+${inlines}
+"
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      ncouples 6
+      key "stereotypeSet" value "C++ smart_ptr"
+      key "stereotypeCheck" value ""
+      key "stereotypeSetParameters" value "unique_ptr"
+      key "stereotypeCheckParameters" value ""
+      key "stereotypeApplyOn" value "Relation"
+      key "stereotypeIconPath" value ""
+      classrelation 551833 // <unidirectional association>
+	relation 551449 --->
+	  a role_name "" protected
+	    cpp default "    ${comment}${static}${thread_local}${mutable}${volatile}${const}${type} * ${name}${value};
+"
+	    classrelation_ref 551833 // <unidirectional association>
+	  b parent class_ref 917529 // smart_ptr
+      end
+    end
+
+    class 924313 "weak_ptr"
+      visibility package stereotype "stereotype"
+      cpp_decl "${comment}${template}class ${name}${inherit} {
+${members}};
+${inlines}
+"
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      ncouples 6
+      key "stereotypeSet" value "C++ smart_ptr"
+      key "stereotypeCheck" value ""
+      key "stereotypeSetParameters" value "weak_ptr"
+      key "stereotypeCheckParameters" value ""
+      key "stereotypeApplyOn" value "Relation"
+      key "stereotypeIconPath" value ""
+      classrelation 551961 // <unidirectional association>
+	relation 551577 --->
+	  a role_name "" protected
+	    cpp default "    ${comment}${static}${thread_local}${mutable}${volatile}${const}${type} * ${name}${value};
+"
+	    classrelation_ref 551961 // <unidirectional association>
+	  b parent class_ref 917529 // smart_ptr
+      end
+    end
+
+    class 924441 "vector_shared"
+      visibility package stereotype "stereotype"
+      cpp_decl "${comment}${template}class ${name}${inherit} {
+${members}};
+${inlines}
+"
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      ncouples 6
+      key "stereotypeSet" value "C++ smart_ptr"
+      key "stereotypeCheck" value ""
+      key "stereotypeSetParameters" value "vector_shared"
+      key "stereotypeCheckParameters" value ""
+      key "stereotypeApplyOn" value "Relation"
+      key "stereotypeIconPath" value ""
+      classrelation 552089 // <unidirectional association>
+	relation 551705 --->
+	  a role_name "" protected
+	    cpp default "    ${comment}${static}${thread_local}${mutable}${volatile}${const}${type} * ${name}${value};
+"
+	    classrelation_ref 552089 // <unidirectional association>
+	  b parent class_ref 917529 // smart_ptr
+      end
+    end
+
+    class 924569 "vector_weak"
+      visibility package stereotype "stereotype"
+      cpp_decl "${comment}${template}class ${name}${inherit} {
+${members}};
+${inlines}
+"
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      ncouples 6
+      key "stereotypeSet" value "C++ smart_ptr"
+      key "stereotypeCheck" value ""
+      key "stereotypeSetParameters" value "vector_weak"
+      key "stereotypeCheckParameters" value ""
+      key "stereotypeApplyOn" value "Relation"
+      key "stereotypeIconPath" value ""
+      classrelation 552217 // <unidirectional association>
+	relation 551833 --->
+	  a role_name "" protected
+	    cpp default "    ${comment}${static}${thread_local}${mutable}${volatile}${const}${type} * ${name}${value};
+"
+	    classrelation_ref 552217 // <unidirectional association>
+	  b parent class_ref 917529 // smart_ptr
+      end
+    end
+  end
+end

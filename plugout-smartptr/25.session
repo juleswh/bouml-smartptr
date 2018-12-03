@@ -1,0 +1,16 @@
+window_sizes 1874 1156 439 1429 1021 83
+cleanlooks_style
+diagrams
+  classdiagram_ref 385 // Diagrams classes inheritance diagram
+    1122 845 100 A4 0 0
+  active  classdiagram_ref 257 // Class and class members classes inheritance diagram
+    1033 636 100 A4 0 0
+end
+show_stereotypes
+selected 
+package_ref 129 // plugout-smartptr
+open
+  deploymentview_ref 641 // API USER Deployment view
+end
+end
+verbose

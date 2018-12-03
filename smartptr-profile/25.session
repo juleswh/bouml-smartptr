@@ -1,0 +1,13 @@
+window_sizes 1756 1027 439 1311 895 80
+cleanlooks_style
+diagrams
+  active  classdiagram_ref 186777 // shared_ptr
+    1048 716 100 A4 0 0
+end
+show_stereotypes
+selected 
+package_ref 129 // smartptr-profile
+open
+  classview_ref 197529 // smart_ptr
+end
+end

@@ -1,0 +1,4 @@
+class UmlRelation
+!!!134809.cpp!!!	run() : bool
+this->set_CppDecl("    ${comment}${static}${thread_local}${mutable}${volatile}${const}std::shared_ptr<${type}> ${name}${value};");
+return true;

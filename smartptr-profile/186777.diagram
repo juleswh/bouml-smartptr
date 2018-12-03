@@ -1,0 +1,52 @@
+format 221
+
+classcanvas 128025 class_ref 917401 // shared_ptr
+  classdiagramsettings member_max_width 0 end
+  xyz 82 109 2000
+end
+classcanvas 128153 class_ref 917529 // smart_ptr
+  classdiagramsettings member_max_width 0 end
+  xyz 308 156 2000
+end
+classcanvas 128409 class_ref 924185 // unique_ptr
+  classdiagramsettings member_max_width 0 end
+  xyz 83 198 2006
+end
+classcanvas 128665 class_ref 924313 // weak_ptr
+  classdiagramsettings member_max_width 0 end
+  xyz 83 283 2006
+end
+classcanvas 128921 class_ref 924441 // vector_shared
+  classdiagramsettings member_max_width 0 end
+  xyz 511 112 2006
+end
+classcanvas 129177 class_ref 924569 // vector_weak
+  classdiagramsettings member_max_width 0 end
+  xyz 514 211 2006
+end
+relationcanvas 128281 relation_ref 544665 // <unidirectional association>
+  from ref 128025 z 2001 to ref 128153
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128537 relation_ref 551449 // <unidirectional association>
+  from ref 128409 z 2007 to ref 128153
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128793 relation_ref 551577 // <unidirectional association>
+  from ref 128665 z 2007 to ref 128153
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129049 relation_ref 551705 // <unidirectional association>
+  from ref 128921 z 2007 to ref 128153
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129305 relation_ref 551833 // <unidirectional association>
+  from ref 129177 z 2007 to ref 128153
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end
