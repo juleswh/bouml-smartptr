@@ -27,3 +27,24 @@ std::vector<std::weak_ptr<T> > x;
 Hope you enjoy!
 
 [1]: https://www.bouml.fr/
+
+## License
+
+All the contents of this repository is licensed under the GNU General Public License (GPL)
+
+    Copyright (C) 2018  Jules Waldhart
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    See the LICENSE file containing a copy of the GNU General Public
+    License for more details.
+    
+[gpl2]:https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+[gpl3]:https://www.gnu.org/copyleft/gpl-3.0.html
