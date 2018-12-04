@@ -14,6 +14,33 @@ Then you need to generate to ```.pro``` file. In the BOUML project, find the art
 Now open your own project, and import the ```smartptr-profile.prj``` project, which will give you access to the new stereotypes for UML Relations: right-click on your top-level project > Import Project.
 You also need to set the path to the plugout. In Tools > Tools Settings > Class, add a tool with the path to your freshly built plugout, and name it "C++ smart_ptr" (I don't if the name's actually important).
 
+### Set-up generation options
+
+Last thing to do is to tell the generator which includes are needed for your stereotypes.
+In your top-level package Generation Settings > Stereotypes > attribute and relations stereotypes correspondance, add the following lines:
+
+| Uml | C++ |
+| --- | --- |
+| ```smart_ptr:shared_ptr``` | ```std::shared_ptr``` |
+| ```smart_ptr:weak_ptr  ``` | ```std::weak_ptr  ``` |
+| ```smart_ptr:unique_ptr``` | ```std::unique_ptr``` |
+
+
+And in the tab ```C++ [5]``` > External Types:
+
+| External Type | Include etc... |
+| --- | --- |
+|```std::shared_ptr``` | ```#include <memory>``` |
+|```std::weak_ptr```   | ```#include <memory>``` |
+|```std::unique_ptr``` | ```#include <memory>``` |
+|```smart_ptr:vector_shared``` | ```#include <memory>``` |
+|                              | ```#include <vector>``` |
+|```smart_ptr:vector_weak```   | ```#include <memory>``` |
+|                              | ```#include <vector>``` |
+
+
+
+
 ### Use it
 Now when you create a relation between classes, you can select stereotypes that will create either:
 
